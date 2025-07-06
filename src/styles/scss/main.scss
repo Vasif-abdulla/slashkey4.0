@@ -1,0 +1,15 @@
+@import "custom/variables";
+@import "custom/home";
+@import "custom/header";
+@import "custom/glitch";
+@import "custom/guidelines";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+}

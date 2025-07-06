@@ -1,0 +1,50 @@
+.home-custom {
+  background-size: cover;
+  background-position: center;
+  background-color: $theme-color; // Set the background color to black
+  min-height: 100vh; // Set the height to 100% of the viewport height for fullscreen
+  margin: 0; // Remove default margin
+  padding: 0; // Remove default padding
+  height: auto;
+}
+
+.custom-footer {
+  background-color: black;
+}
+
+.landing-footer-container {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.landing-footer-container svg {
+  animation: moveLeftToRight 20s ease-in-out 2s alternate,
+    moveRightToLeft 20s ease-in-out 2s alternate;
+  animation-iteration-count: infinite;
+}
+
+.homeVideo {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
