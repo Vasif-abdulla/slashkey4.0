@@ -45,7 +45,7 @@ export default function Sponsors() {
   return (
     <div className="py-8 lg:py- mx-auto max-w-screen-xl px-4">
       <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-slk-regular md:text-4xl">
-        Slash Key 1.0 Sponsors
+        Slash Key 3.0 Sponsors
       </h2>
       <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4">
         {sponsors?.map((item) => (
