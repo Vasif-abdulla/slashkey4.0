@@ -33,7 +33,7 @@ export default function Sponsors() {
       <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-slk-regular md:text-4xl text-center">
         Our Sponsors
       </h2>
-      <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-2">
+      {/* <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-2">
         {sponsors?.map((item) => (
           <div
             className="flex justify-center items-center sm:mx-2 md:mx-0 lg:mx-0"
@@ -47,6 +47,11 @@ export default function Sponsors() {
             />
           </div>
         ))}
+      </div> */}
+      <div className="text-center">
+        <h1 className=" hero-coming glitch1 layerstext-4xl font-bold tracking-tight text-7xl" data-text="coming soon" >
+          <span>coming soon</span>
+        </h1>  
       </div>
     </div>
   );

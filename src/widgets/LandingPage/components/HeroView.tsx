@@ -35,7 +35,7 @@ export default function HeroView() {
           </p>
           <div className="mt-10 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6">
             <Link
-              href="https://www.yepdesk.com/slashkey-3-0"
+              href=""
               target="_blank"
               className="rounded-md border boder-indigo bg-slk-light px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#C04812] transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
@@ -49,7 +49,7 @@ export default function HeroView() {
             </Link>
           </div>
           <div className="mt-32 flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-96">
-            <div className="flex flex-col items-center mb-20 sm:mb-0">
+            {/* <div className="flex flex-col items-center mb-20 sm:mb-0">
               <div className="flex flex-row items-center">
                 <IconLocation className="text-slk-light w-8 lg:w-10" />
                 <h1 className="ml-2 text-xl lg:text-2xl font-semibold text-gray-500">
@@ -70,7 +70,7 @@ export default function HeroView() {
               <h1 className="m-3 text-2xl lg:text-3xl font-semibold text-gray-300">
                 July 19 - 20
               </h1>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

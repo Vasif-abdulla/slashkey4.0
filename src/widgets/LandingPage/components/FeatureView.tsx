@@ -51,12 +51,14 @@ export default function FeatureView() {
               <p className="mt-2 text-3xl font-bold tracking-tight text-slk-regular sm:text-4xl">
                 Venue
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              
+            
+              {/* <p className="mt-6 text-lg leading-8 text-gray-600">
               Join us at the prestigious National Institute of Technology Calicut, renowned for its excellence in technical education and innovation.
                Our hackathon will be held in this dynamic setting, offering state-of-the-art facilities and an inspiring atmosphere. 
               Engage with a vibrant community of tech enthusiasts and 
               experience the cutting-edge resources that NIT Calicut has to offer.
-              </p>
+              </p> */}
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
@@ -70,13 +72,18 @@ export default function FeatureView() {
               </dl> */}
             </div>
           </div>
-          <Image
+          {/* <Image
             src="/images/assets/sponsors/nitc.jpg"
             alt={imageAlts.VENUE}
             className="hidden sm:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}
-          />
+          /> */}
+        </div>
+        <div className="text-center">
+          <h1 className=" hero-coming glitch1 layerstext-4xl font-bold tracking-tight text-7xl" data-text="coming soon" >
+            <span>coming soon</span>
+          </h1>  
         </div>
       </div>
     </div>

@@ -106,7 +106,7 @@ export default function Header() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="https://www.yepdesk.com/slashkey-3-0"
+            href=""
             target="_blank"
             className="text-sm font-semibold leading-6 text-gray-200"
           >

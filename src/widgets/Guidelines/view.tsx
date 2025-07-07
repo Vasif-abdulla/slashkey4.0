@@ -27,10 +27,11 @@ export default function GuidelinesView() {
                       <ul className="list-disc marker:text-gray-600 ml-10 guidelines">
                         <li>
                           Slash Key is a 30-hour offline hackathon organized by
-                          the IEEE Computer Society Kerala Chapter and hosted by
-                          NIT Calicut.
+                          the IEEE Computer Society Kerala Chapter 
+                          {/* and hosted by
+                          NIT Calicut. */}
                         </li>
-                        <li>Date: July 19th and 20th, 2024.</li>
+                        {/* <li>Date: July 19th and 20th, 2024.</li> */}
                         {/* <li>
                           Prize Pool: 50K and exciting goodies for all
                           registered teams.

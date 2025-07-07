@@ -55,7 +55,7 @@ export default function Footerview() {
           </div>
 
           <p className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400 lg:text-right">
-            Copyright &copy; 2024. All rights reserved.
+            Copyright &copy; 2025. All rights reserved.
           </p>
         </div>
       </footer>

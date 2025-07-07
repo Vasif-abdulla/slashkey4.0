@@ -11,7 +11,18 @@
   /* Bright things in dark environments usually cast that light, giving off a glow */
   filter: drop-shadow(0 1px 3px $theme-color);
 }
+.hero-coming {
+  font-family: "Fugaz One", sans-serif;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  color: #C04812;
+  z-index: 2;
+  letter-spacing: 10px;
+  padding-top: 50px;
 
+  /* Bright things in dark environments usually cast that light, giving off a glow */
+  filter: drop-shadow(0 1px 3px #a1a5a6);
+}
 .single-path {
   clip-path: polygon(
     0% 12%,

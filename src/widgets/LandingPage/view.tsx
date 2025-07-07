@@ -28,7 +28,7 @@ export default function LandingPageview() {
         </div>
       </div>
       <FeatureView />
-      <Sponsors />
+      {/* <Sponsors /> */}
     </>
   );
 }

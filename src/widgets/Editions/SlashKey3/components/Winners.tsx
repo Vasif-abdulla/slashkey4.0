@@ -83,7 +83,7 @@ export default function Winners() {
             <div className="py-4">
               <Image
                 src={"/images/assets/slashkey3/winners/first.png"}
-                alt={imageAlts.SLK2_WINNER}
+                alt={imageAlts.SLK3_WINNER}
                 height={600}
                 width={770}
               />
@@ -111,7 +111,7 @@ export default function Winners() {
             <div className="py-4">
               <Image
                 src={"/images/assets/slashkey3/winners/second.png"}
-                alt={imageAlts.SLK2_RUNNER_UP2}
+                alt={imageAlts.SLK3_RUNNER_UP2}
                 height={600}
                 width={770}
               />
@@ -139,7 +139,7 @@ export default function Winners() {
             <div className="py-4">
               <Image
                 src={"/images/assets/slashkey3/winners/third.png"}
-                alt={imageAlts.SLK2_RUNNER_UP1}
+                alt={imageAlts.SLK3_RUNNER_UP1}
                 height={600}
                 width={770}
               />

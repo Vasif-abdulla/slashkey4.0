@@ -47,7 +47,7 @@ export default function SlashkeyThreeView() {
           <div className="overflow-hidden">
             <Image
               src="/images/assets/slashkey3/group.png"
-              alt={imageAlts.SLK1_GROUP_PHOTO}
+              alt={imageAlts.SLK3_GROUP_PHOTO}
               className="hidden sm:block w-full h-auto rounded-xl shadow-xl"
               width={1216}
               height={516}

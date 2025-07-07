@@ -23,12 +23,16 @@ export const imageAlts = {
   SLK2_WINNER: "Slash Key 2.0 Winners",
   SLK2_RUNNER_UP1: "Slash Key 2.0 Runner Up Team Parippuvada Overflow",
   SLK2_RUNNER_UP2: "Slash Key 2.0 Runner Up Team Pixel",
+  SLK3_GROUP_PHOTO: "Slash Key 1.0 Wrap up photo.",
+  SLK3_WINNER : "Slash Key 3.0 Winners Team Zhagaram",
+  SLK3_RUNNER_UP1: "Slash Key 3.0 Runner Up Team Rockstars",
+  SLK3_RUNNER_UP2: "Slash Key 3.0 Runner Up Team Mugglers",
 };
 
 export const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Schedule", href: "/schedule" },
+  { name: "Guidelines", href: "/guidelines" },
   { name: "Contact", href: "/contact" },
 ];
 
