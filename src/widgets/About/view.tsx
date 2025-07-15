@@ -104,7 +104,7 @@ export default function AboutPageView() {
             </p>
           </div>
         </div>
-        <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+        {/* <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
           <div className="grid grid-cols-2 gap-8 justify-center text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-3">
             {awards?.map((item) => (
               <div
@@ -120,7 +120,7 @@ export default function AboutPageView() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         {/*  About IEEE */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 m-8 py-8">
           <div>

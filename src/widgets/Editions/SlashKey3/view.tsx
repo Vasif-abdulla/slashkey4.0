@@ -27,19 +27,12 @@ export default function SlashkeyThreeView() {
             </p>
 
             <p className="mt-6 text-md text-justify leading-8 text-gray-800">
-              The first edition of Slash Key, organized by
-              <span className="font-semibold mx-1">
-                IEEE Computer Society Kerala Chapter,
-              </span>
-              at
-              <span className="font-semibold mx-1">
-                St.Joseph's College of Engineering and Technology
-              </span>
-              was held on{" "}
-              <span className="font-semibold mx-1">July 9th and 10th 2022</span>
-              . The event had about 16 Teams and 54 participants. There were 6
-              phases of Slash Key with an Ideation Phase, 4 stages of Build
-              Phase and a Presentation Phase.
+              Slash Key 3.0 was a 30-hour hackathon held at the <span className="font-semibold mx-1">National Institute of Technology (NIT)</span>, Calicut on 
+              <span className="font-semibold mx-1">July 19-20, 2024</span>. Organised by the 
+              <span className="font-semibold mx-1">IEEE Computer Society Kerala Chapter</span> 
+              in collaboration with IEEE SB NIT Calicut and IEEE Young Professionals, 
+              the event brought together talented students and young innovators to find practical 
+              solutions to real-world problems.
             </p>
           </div>
         </div>
@@ -55,57 +48,24 @@ export default function SlashkeyThreeView() {
           </div>
           <div>
             <p className="text-md leading-8 text-justify text-gray-800">
-              As an introduction to this Hackathon, a session
-              <span className="font-semibold mx-1">Hackathon 101</span>
-              handled by Mr. Karthik K,
-              <span className="italic mx-1">
-                Chair-Industry Engagement Subcommittee, IEEE CS SYP MGAB
-              </span>
-              for those participants who were attending an offline hackathon for
-              the very first time. 7 themes were given for the Hackathon which
-              included
-              <span className="font-semibold mx-1">
-                Paper-free solutions, Smart Education, Metaverse, Health care,
-                Fintech, Entrepreneurship support solutions and open innovation
-              </span>
-              with social relevance for the Teams. The Judging panel of a
-              Professional Team with Mr.Karthik K,
-              <span className="italic mx-1">
-                AI Engineer at Innovation Incubator Advisory
-              </span>
-              , Mr.Alan Mathew,
-              <span className="italic mx-1">
-                ETL Developer at Guidehouse, Co-Founder of ZetGo
-              </span>
-              along with Mr Aravind P Unnithan, Software Engineer at
-              <span className="italic mx-1">InApp.</span>
+              With a prize pool of ₹50,000, Slash Key 3.0 encouraged participants to think creatively, 
+              work as a team, and build projects that could create real impact. 
+              The hackathon had three phases. In the ideation phase, teams planned and refined their ideas, 
+              ensuring they were both innovative and feasible, with mentors available to guide them with technical and 
+              strategic advice. During the development phase, participants worked intensively to turn their ideas into 
+              functional prototypes, applying their coding skills and problem-solving abilities within a short timeframe. 
+              Finally, in the presentation phase, teams showcased their projects to a panel of judges, explaining their 
+              approach, the technology used, and how their solution addressed the chosen problem effectively.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-16 m-8">
           <div>
             <p className="text-md leading-8 text-justify text-gray-800">
-              Based on the cumulative evaluation, on the 28th hour, 5 teams were
-              shortlisted to present their solution and the next 2 hours was
-              packed with the solution presentation. After the presentation, on
-              the 30th hour, the winners were declared and prizes were
-              distributed.
+             The event was supported by sponsors including the Institution’s Innovation Council, .xyz, and Axure, who contributed resources, mentorship, and prizes that enriched the overall experience. Throughout the hackathon, participants also attended technical workshops and interacted with mentors, gaining insights and confidence to strengthen their projects.
             </p>
-            <p className="mt-6 text-md leading-8 text-justify text-gray-800 ">
-              Another session on
-              <span className="font-semibold mx-1">
-                The Al Lens-Research Trends in Industries
-              </span>
-              was handled by Mr Shivam Abhilash,
-              <span className="italic mx-1">
-                Engineering Specialist, Chairperson-ZS Associates,
-                Chairperson-Students and Young Professional Committee IEEE CS
-                MGAB
-              </span>
-              which provided valuable insights for participants on
-              research-level technical topics from the student's perspective
-              especially motivating Al/ML Enthusiasts.
-            </p>
+            {/* <p className="mt-6 text-md leading-8 text-justify text-gray-800 ">
+            </p> */}
           </div>
         </div>
         <Winners />
